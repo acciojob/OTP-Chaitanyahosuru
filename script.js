@@ -8,5 +8,6 @@ codes.forEach((code, index) => {
     code.addEventListener('keydown', (e) => {
         if (e.key === 'Backspace' && code.value === '' && index !== 0) {
             document.getElementById(code-${index}).focus();
+		}
         }
     });
