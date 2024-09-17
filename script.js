@@ -10,10 +10,3 @@ codes.forEach((code, index) => {
             document.getElementById(`code-${index}`).focus();
         }
     });
-
-    code.addEventListener('input', (e) => {
-        if (e.target.value.length === 1 && index < codes.length - 1) {
-            document.getElementById(`code-${index + 2}`).focus();
-        }
-    });
-});
