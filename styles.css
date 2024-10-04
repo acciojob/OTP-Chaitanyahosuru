@@ -1,0 +1,36 @@
+.container {
+    max-width: 300px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#verification_heading {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#verification_subtext {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.code-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.code:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
