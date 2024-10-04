@@ -1,5 +1,6 @@
 //your JS code here. If required.
 
+
 const codeInputs = document.querySelectorAll('.code');
 
 codeInputs.forEach((input, index) => {
@@ -16,3 +17,5 @@ codeInputs.forEach((input, index) => {
         }
     });
 });
+
+document.getElementById('code-1').focus();
